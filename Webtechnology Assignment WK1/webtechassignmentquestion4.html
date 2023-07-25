@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Webpage with Audio and Video</title>
+</head>
+<body>
+
+<!-- Audio tag -->
+<audio controls>
+ <source src="audio.mp3" type="audio/mpeg">
+ Your browser does not support the audio tag.
+</audio>
+
+<!-- Video tag -->
+<video controls>
+ <source src="video.mp4" type="video/mp4">
+ Your browser does not support the video tag.
+</video>
+
+<script>
+ // Function to play the audio file
+ function playAudio() {
+  var audio = document.querySelector('audio');
+  audio.play();
+ }
+
+ // Function to play the video file
+ function playVideo() {
+  var video = document.querySelector('video');
+  video.play();
+ }
+
+ // Add event listeners to the play buttons
+ document.querySelector('#play-audio').addEventListener('click', playAudio);
+ document.querySelector('#play-video').addEventListener('click', playVideo);
+</script>
+
+</body>
+</html>
