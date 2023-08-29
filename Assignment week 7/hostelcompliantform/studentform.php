@@ -11,10 +11,10 @@ if(isset($_POST['course']) && !empty(($_POST['course']))){
 if(isset($_POST['gender']) && !empty(($_POST['gender']))){
     $gender= $_POST['gender'];
 }
-if(isset($_POST['complain']) && !empty(($_POST['complain']))){
-    $complain = $_POST['complain'];
-}
 
+    $complain = $_POST['complain'];
+    $other = $_POST['other'];
+    $more = $_POST['more'];
 
 
     echo "Thank you ";
@@ -27,7 +27,8 @@ $profile=array(
     'course'=>$course,
     'gender'=>$gender,
     'complain'=>$complain,
-    
+    'other'=>$other,
+    'more'=>$more,
 );
 
 array_push($datalist, $profile);
