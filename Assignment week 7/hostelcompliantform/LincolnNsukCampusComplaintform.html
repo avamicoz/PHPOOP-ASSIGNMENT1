@@ -38,16 +38,16 @@
        <p>Student ID:</p>
        <input type="text" placeholder="LUC-NGA-001-ADM-1000***" name="studentid"/>
       <p>Gender:</p>
-      <input type="radio" name="gender">Male<input type="radio" name="gender">Female
+      <input type="radio" name="gender" value="male">Male<input type="radio" name="gender" value="female">Female
         <p>
             <p>complain:</p>
-            
-        <input type="checkbox" name="complain"/>Water issue
-        <input type="checkbox" name="complain"/>Electricity issue
-        <input type="checkbox" name="complain"/>Plumbing issue
-        <input type="checkbox" name="complain"/>Harassment
-        <input type="checkbox" name="complain"/>Security issue<br/>
-            
+          <select name="complain"> 
+        <option value="Water issue">Water issue</option>
+        <option value="Electricity issue">Electricity issue</option>
+        <option value="Plumbing issue">Plumbing issue</option>
+        <option value="Harassment">Harassment</option>
+        <option value="Security issue">Security issue</option>
+    </select> <br/><br/>  
         Other complain:
         <textarea wrap="physical" ></textarea>
         want to tell us more about your complain?<textarea></textarea><br/>
