@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Amazon Project</title>
+
+    <!-- This code is needed for responsive design to work.
+      (Responsive design = make the website look good on
+      smaller screen sizes like a phone or a tablet). -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Load a font called Roboto from Google Fonts. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Here are the CSS files for this page. -->
+    <link rel="stylesheet" href="styles/shared/general.css">
+    <link rel="stylesheet" href="styles/shared/amazon-header.css">
+    <link rel="stylesheet" href="styles/pages/amazon.css">
+  </head>
+  <body>
+    <div class="amazon-header">
+      <div class="amazon-header-left-section">
+        <a href="amazon.html" class="header-link">
+          <p style="font-weight: bold;color: whitesmoke;text-decoration: none;">Mahfuz store</p>
+        </a>
+      </div>
+      <div><a href="login/login.php" style="text-decoration: none;"><p style="font-weight: bold;color: whitesmoke; ">admin</p></a></div>
+      <div><a href="add.html" style="text-decoration: none;"><p style="font-weight: bold;color: whitesmoke;">Report and complain</p></a></div>
+     <div><a href="saleschat.html" style="text-decoration: none;"><p style="font-weight: bold;color: whitesmoke;">Sales Chat</p></a></div>
+
+       <a class="cart-link header-link" href="checkout.html">
+          <img class="cart-icon" src="images/icons/cart-icon.png">
+          <div class="cart-quantity js-cart-quantity">0</div>
+          <div class="cart-text">Cart</div>
+        </a>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="products-grid js-products-grid">
+      </div>
+    </div>
+
+    <script src="data/cart.js"></script>
+    <script src="data/products.js"></script>
+    <script src="scripts/amazon.js"></script>
+  </body>
+</html>

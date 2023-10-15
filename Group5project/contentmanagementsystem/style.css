@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.container{
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: #CED4DB;
+    width: 440px;
+    margin-top: 50px;
+padding-left: 20px;
+padding-right: 20px;
+padding-top:10px;
+padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+
+}
+
+.title{
+    text-align: center;
+    margin-top:10px;
+}
+
+.form-control{
+    margin-top:20px;
+    outline: none;
+    height: 40px;
+    border-width: 1px;
+    border-color: #CED4DB;
+    border-style: solid;
+    border-radius: 5px;
+    padding:5px 10px;
+}
+.form-control:focus{
+    border-color: #719ECE;
+    box-shadow: 0 0 4px #719ECE;
+}
+.btn-login{
+    margin-top: 10px;
+    height: 35px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    
+
+
+    background-color: #97b1e2;
+    border-color:#035bff;
+    color:#fff;
+    cursor:pointer;
+
+    transition: all .14s ease-in-out;
+}
+
+.btn-login:hover{
+  background-color: #00ccff;
+    border-color: #00ccff; 
+}
+
+.label{
+    font-weight: 600;
+    margin:10px 0px;
+
+}
+
+a{
+    text-decoration: none;
+    color:#0D6EFD;
+}
+
+main ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+ul li{
+    margin-left: 5px;
+}
+
+main{
+    margin-top: 50px;
+}
+
+
+main  .container{
+margin-top:10px;
+width:calc(100vw - 80px);
+
+}
+
+
+.container .header{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f7f7f7;
+    align-items: center;
+    padding: 5px 20px;
+    border-bottom-width: 1px;
+    border-bottom-color: #CED4DB;
+    border-bottom-style: solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.p-0{
+    padding:0
+}
+
+table{
+    margin:20px
+}
+
+.btn-success{
+    color:#fff;
+    border-radius: 5px;
+    background-color: #3886bb;
+    padding:10px;
+    border-width: 0;
+    cursor: pointer;
+    transition: all .12s ease-in-out;
+
+}
+
+.header button{
+    margin-right: 60px;
+}
+
+.btn-success:hover{
+    background-color: #0585ee;
+}
+
+table thead{
+    text-align: justify;
+}
+
+
+
+table td,th{
+    border-bottom-color: #CED4DB;
+    border-bottom-width: 1px;
+    padding:10px;
+    border-bottom-style: solid;
+    
+}
+
+
+.btn{
+    color:#fff;
+    border-radius: 5px;
+    padding:10px;
+    border-width: 0;
+    cursor: pointer;
+    transition: all .12s ease-in-out;
+
+}
+
+.btn-primary{
+    background-color: #0d6efd;
+}
+
+.btn-primary:hover{
+    background-color: #085ED6;
+}
+
+.btn-secondary{
+    background-color: #6c757d;
+}
+
+.btn-secondary:hover{
+    background-color: #50585D;
+}
+
+.btn-danger{
+    background-color:  #dc3545;
+}
+
+.btn-danger:hover{
+    background-color: #A52834;
+}
+
+main ul li{
+   font-weight: 600;
+    color: #6C757D;
+    font-size: 14px;
+}
+
+
+.flex-center{
+    justify-content: center !important;
+    padding: 15px !important;
+}
+
+.p20{
+    padding:20px;
+}
+
+.row{
+   margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 20px;
+}
+
+label{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.col-6{
+   
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f7f7f7;
+    align-items: center;
+    padding: 5px 20px;
+    border-top-width: 1px;
+    border-top-color: #CED4DB;
+    border-top-style: solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.footer button{
+    width: 200px;
+}
+
+ul li:not(:first-child)::before{
+    content: '>';
+}
+
+#logo{
+    margin: auto;
+    padding: 10px;
+}
+
+input{
+    background-color:#F7F7F7 ;
+}
+#size{
+    width: 900px;
+    
+}
+
+.foot{
+
+    margin-top: 20px;
+    display:flex
+    flex-direction:row;
+
+
+    >h4 {color: #0D6EFD;
+    }
+    >button{ color:#fff;
+        border-radius: 5px;
+        padding:10px;
+        border-width: 0;
+        cursor: pointer;
+        transition: all .12s ease-in-out
+
+    }
+}

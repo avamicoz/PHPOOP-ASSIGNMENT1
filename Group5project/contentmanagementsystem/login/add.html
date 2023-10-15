@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Studentpage</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <style>
+        body  {
+          background-color: #cccccc;
+        }
+        </style>
+    
+    <main>
+        <ul>
+            <li><a href="youtube.html">Dashboard </a></li>
+            <li>>Complain</li>
+        </ul>
+
+    <div class="container">
+       
+             <div class="header flex-center">
+            <h3>Add New complain</h3>
+           
+        </div>
+
+            
+            <form action="submit.php" method="post" >
+
+                <div class="p-20">
+        <div class="row">
+            <div class="form-group">
+                <label for="">Complain Title</label>
+                <input type="text" class="form-control col-6" name="title" placeholder="Content Title" required/>
+            </div>
+
+                <div class="form-group ">
+                <label for="post_image">Post Image</label>
+                <input type="file" class="form-control col-6" name="image" placeholder="image" required/>
+            </div>
+
+            </div>
+
+            <div class="row">
+                <div class="form-group">
+                    <label for="">Product Name</label>
+                    <input type="text" class="form-control col-6" name="tags" placeholder="tags"/>
+                </div>
+    
+                    <div class="form-group ">
+                    <label for="">Complain text</label>
+                    <input type="text" class="form-control col-6" name="content" />
+                </div>
+    
+                </div>
+                </div>
+        <div class="footer">
+        <footer>
+            <button type="submit" class="btn-success" name="submit" value=""> Submit</button>
+        </footer>
+    </div>
+
+</form>
+        </div>
+
+    
+</main>
+
+</body>
+</html>     

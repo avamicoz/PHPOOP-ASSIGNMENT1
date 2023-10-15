@@ -1,0 +1,40 @@
+ /* CSS styles for the page */
+ body {
+    font-family: Arial, sans-serif;
+  }
+
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px double #ddd;
+  }
+
+  th, td {
+    padding: 10px 15px;
+    text-align: left;
+    color: #fff; /* Set the text color for table cells */
+    border: 2px double #ddd;
+    background-color: #454b4e; /* Set your desired color here */
+    font-size: 24px;
+  }
+
+  th {
+    background-color: #f2f2f2;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #333; /* Set the text color for table headers */
+  }
+
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  tr:hover {
+    background-color: #f5f5f5;
+  }

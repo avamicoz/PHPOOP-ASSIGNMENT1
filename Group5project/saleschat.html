@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .chat-container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.chat-header {
+  text-align: center;
+}
+
+.chat-body {
+  height: 300px;
+  overflow-y: auto;
+}
+
+.chat-messages {
+  list-style: none;
+  padding: 0;
+}
+
+.chat-message {
+  margin-bottom: 10px;
+}
+
+.chat-message .sender {
+  font-weight: bold;
+}
+
+.chat-message .message {
+  font-size: 14px;
+}
+
+.chat-footer {
+  text-align: right;
+}
+
+.chat-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.chat-send-button {
+  padding: 10px;
+  background-color: blue;
+  color: white;
+}
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+          <h1>Shop Sales Chat</h1>
+        </div>
+        <div class="chat-body">
+          <ul class="chat-messages"></ul>
+        </div>
+        <div class="chat-footer">
+          <input type="text" class="chat-input" placeholder="Type your message here...">
+          <button type="button" class="chat-send-button">Send</button>
+        </div>
+      </div>
+</body>
+</html>
